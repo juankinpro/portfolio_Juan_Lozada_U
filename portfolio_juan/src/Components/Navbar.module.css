@@ -5,12 +5,14 @@
     align-items: center;
     background-color: #333;
     color: #fff;
-    padding: 20px 50px;
+    padding: 20px 20px; /* Reducir el padding horizontal */
     position: relative;
+    width: 100%;
     transition: all 0.3s ease;
-}
-
-.NavbarOpen {
+    box-sizing: border-box; /* Para que el padding no afecte el ancho */
+  }
+  
+  .NavbarOpen {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -18,55 +20,85 @@
     height: 100%;
     width: 100%;
     padding: 50px;
-}
-
-.logo {
+  }
+  
+  .navOnScroll {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4a4564;
+    color: #fff;
+    padding: 20px 50px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: all 0.3s ease;
+  }
+  
+  .logo {
     font-size: 24px;
     font-weight: bold;
     color: #fff;
     cursor: pointer;
-}
-
-.menuIcon {
+  }
+  
+  .menuIcon {
     cursor: pointer;
     color: #fff;
-}
-
-.navLinks {
+  }
+  
+  .navLinks {
     list-style: none;
     padding: 0;
     margin: 0;
     display: flex;
-    flex-direction: column;
     align-items: center;
-}
-
-.navItem {
+    gap: 20px; /* Espacio entre los enlaces */
+  }
+  
+  .navItem {
     font-size: 18px;
     color: #fff;
     text-decoration: none;
-    padding: 15px 0;
+    padding: 10px 0;
     transition: color 0.3s ease;
-}
-
-.navItem:hover {
+  }
+  
+  .navItem:hover {
     color: #ff6347;
-}
-
-/* Para dispositivos móviles, el Navbar debe ocupar toda la pantalla */
-@media screen and (max-width: 768px) {
+  }
+  
+  .contactLink {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #508094;
+    border-radius: 4px;
+    padding: 10px 15px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contactLink:hover {
+    background-color: #6baac7;
+  }
+  
+  /* Para dispositivos móviles, el Navbar debe ocupar toda la pantalla */
+  @media screen and (max-width: 768px) {
     .Navbar {
-        padding: 10px 20px;
+      padding: 10px 20px;
     }
-
+  
     .navLinks {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      align-items: center;
     }
-
+  
     .navItem {
-        width: 100%;
-        text-align: center;
+      width: 100%;
+      text-align: center;
     }
-}
+  }
+  
