@@ -10,7 +10,7 @@ export const Home = () => {
          Pantalla principal
       </p>
         <p>
-        Aqui pondria lo que sea que quiera pero como no se que poner.<br/>
+        Aqui pondria lo que sea que quiera, pero como no se que poner.<br/>
         <b>Ella es fanatica de lo sensual</b>
       </p>
       </div>

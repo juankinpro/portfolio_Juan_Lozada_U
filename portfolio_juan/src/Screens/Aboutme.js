@@ -13,7 +13,7 @@ const Aboutme = () => {
       id: 2,
     },
     {
-      text: " Soy pesimo para el Front.",
+      text: " Estoy aprendiendo Front.",
       id: 3,
     },
   ];

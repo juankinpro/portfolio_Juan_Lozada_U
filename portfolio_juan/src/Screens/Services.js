@@ -3,7 +3,7 @@ import styles from "../Screens/Services.module.css";
 
 export const Services = () => {
   return (
-    <div className={styles.services}>
+    <div name="Que Hago?" className={styles.services}>
       <p>
         Puedo ayudarte a solucionar pequeños problemas de programación y bases de datos.
       </p>

@@ -34,9 +34,9 @@ export const Navbar = () => {
 
     const links = [
         { id: 1, link: "Home" },
-        { id: 2, link: "Servicios" },
+        { id: 2, link: "Que Hago?" },
         { id: 3, link: "Aboutme" },
-        { id: 4, link: "Intereses" },
+        { id: 4, link: "Interes" },
     ];
 
     return (

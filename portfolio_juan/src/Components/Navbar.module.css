@@ -1,15 +1,14 @@
-/* Estilo base para el Navbar */
 .Navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #333;
     color: #fff;
-    padding: 20px 20px; /* Reducir el padding horizontal */
+    padding: 20px 20px; 
     position: relative;
     width: 100%;
     transition: all 0.3s ease;
-    box-sizing: border-box; /* Para que el padding no afecte el ancho */
+    box-sizing: border-box;
   }
   
   .NavbarOpen {
@@ -31,6 +30,8 @@
     padding: 20px 50px;
     position: fixed;
     top: 0;
+    box-sizing: border-box;
+    z-index: 1000;
     width: 100%;
     transition: all 0.3s ease;
   }
